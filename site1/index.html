@@ -4,49 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Beer Money Podcast</title>
+    <link rel="shortcut icon" href="./assets/beer.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
         <ul>
             <li>
-                <img src="assets/cover2.png" width="140px" >
+                <!-- <img src="assets/cover2.png" width="100px" > -->
             </li>
             <li>
-            
+                <a href="#updates">Updates</a>
             </li>
             <li>
-            
+                <a href="#listen">Listen</a>
             </li>
             <li>
-            
+                <a href="#contact">Contact</a>
             </li>
 
         </ul>
 
     </nav>
     <header>
+            <div class="header-title">
+            <h2>Beer Money Podcast</h2>
+            <p>Three brothers talking about, and drinking, beer. Also, we try to come up with ways to make money.</p>
             <button>Listen Now</button>
+            </div>
     </header>
 
     <main>
-        <div class="updates">
+        <div id="updates">
+            <h2>Updates</h2>
+            <ul>
+            <li>We did it, we finally pulled our heads out of our asses. 
+                Damn near 8 months hiatus but here we are again. 
+                A whole new formula, hopefully for the better.  
+                Take a listen to episode 400 tomorrow and let us know what you think, 
+                what we should change and any other nonsense. 
+                    Cheers
+            </li>
+            <li>~BMPC</li>
+            <li>1/5/20</li>
+        </ul>
 
+            <ul>
+                <li>
+                    We've been stagnant and we're sorry. Life gets in the way, the beer still flows but not always with a mic around. We've got some content coming up we promise.
+                </li>
+                <li>~BMPC</li>
+                <li>5/10/19</li>
+            </ul>
+
+            <ul>
+                <li>
+                    Some time has passed, our hosting site went through some more changes so lack of content again. Thanks for sticking with us and we'll keep up the podcasts. More to come.
+                </li>
+                <li>~Kevin</li>
+                <li>2/25/19</li>
+            </ul>
+
+            <ul>
+                <li>
+                    No Shave November has been completed, a total of $60 made its way to the cause thank you everyone! We took a Hiatus last week due to "eatery holiday" and the "sorry-to-the-natives-but-we-had-the-day-off-of-work" day.
+                </li>
+                <li>~BMPC</li>
+                <li>12/3/18</li>
+            </ul>
         </div>
 
-        <div class="listen">
-
+        <div id="listen">
+            <h2> Listen Now! </h2>
+            <!--  
+            <iframe width="100%" height="300" 
+            scrolling="no" frameborder="no" allow="autoplay" 
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/309302335&color=%23387f4f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+            </iframe>-->
+            <iframe title="Beer Money Podcast" class="podcast-frame"
+            src="https://www.podbean.com/media/player/multi?playlist=http%3A%2F%2Fplaylist.podbean.com%2F3282277%2Fplaylist_multi.xml&vjs=1&kdsowie31j4k1jlf913=2ea273874b0986d5ef0af87b3e7e633f3714198b&size=240&share=1&fonts=Verdana&auto=0&download=0&rtl=0&skin=0">
+             </iframe>
         </div>
 
-        <div class="contact">
-
+        <div id="contact">
+            <h2>Contact</h2>
+            <form action="" method="post" class="js-form">
+                <fieldset>
+                    <div class="form-group">
+                        <label for="contactform-email">Your email:</label>
+                        <input type="email" class="email js-email-input" placeholder="name@email.com" name="contactform-email" id="contactform-email">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactform-message">Message:</label>
+                        <textarea class="message js-message-input" name="contactform-message" id="contactform-message"></textarea>
+                    </div>
+            
+                    
+                    <div class="form-group js-recaptcha"></div>
+            
+                    <div class="form-group">
+                        <button class="btn btnText js-button  " type="submit" >Beer</button>
+                    </div>
+                </fieldset>
+            </form>
         </div>
 
     </main>
  
     <footer>
-
+        <p>Beer Money Podcast &copy</p>
     </footer>
 
 </body>
